@@ -13,6 +13,7 @@ class CmMusic extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: '村民音乐',
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primarySwatch: primary,
         tabBarTheme: tabBarTheme

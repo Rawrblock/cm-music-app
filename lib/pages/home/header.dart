@@ -1,5 +1,4 @@
 import 'package:cm_music_app/pages/home/category_banner.dart';
-import 'package:cm_music_app/pages/home/category_card.dart';
 import 'package:flutter/material.dart';
 
 import 'notification_area.dart';

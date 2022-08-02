@@ -1,4 +1,3 @@
-import 'package:cm_music_app/theme.dart';
 import 'package:flutter/material.dart';
 
 class MusicianCard extends StatelessWidget {

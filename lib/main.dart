@@ -1,5 +1,6 @@
 import 'package:cm_music_app/pages/home/home_page.dart';
 import 'package:cm_music_app/pages/login/login_page.dart';
+import 'package:cm_music_app/pages/playlist/detail_page.dart';
 import 'package:cm_music_app/theme.dart';
 import 'package:flutter/material.dart';
 
@@ -23,6 +24,7 @@ class CmMusic extends StatelessWidget {
       routes: {
         '/': (context) => const HomePage(),
         '/login': (context) => const LoginPage(),
+        '/playlist/detail': (context) => const PlaylistDetailPage()
       },
     );
   }

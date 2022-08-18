@@ -16,7 +16,9 @@ class CategoryBanner extends StatelessWidget {
               title: 'HiHop',
               description: '1.4K Played',
               image: 'assets/images/banner.png',
-              onPress: () {}
+              onPress: () {
+                Navigator.pushNamed(context, '/playlist/detail');
+              }
           ),
           CategoryCard(
               title: 'HiHop',
